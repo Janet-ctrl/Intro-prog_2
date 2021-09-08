@@ -82,6 +82,7 @@ body {
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
+  /*background-color: #0dcaf0;*/
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
@@ -125,6 +126,7 @@ h2, .h2 {
   }
 }
 
+
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
@@ -154,6 +156,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: yellowgreen;
 }
 
 abbr[title],
@@ -11282,7 +11285,7 @@ html {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
-}
+  }
 
 .content-section-heading h2, .content-section-heading .h2 {
   font-size: 3rem;
